@@ -18,8 +18,9 @@ body {
 
 .gallery img {
     display: block;
-    width: calc((100% - 48) / 3);
+    width: calc((1128px - 48) / 3);
     height: 200px;
+    object-fit: cover;
     transition: transform 0.3s ease-in;
 }
 
